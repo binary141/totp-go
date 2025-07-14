@@ -42,10 +42,5 @@ func main() {
 	}
 
 	fmt.Println("code: ", code)
-
-	err = otp.SetHasher(hotp.SHA1)
-	if err != nil {
-		panic(err)
-	}
 }
 ```
